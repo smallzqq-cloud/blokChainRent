@@ -1,0 +1,59 @@
+.land-site-layout-content {
+    min-height: 100%;
+    padding: 24px;
+    background-image: linear-gradient(to top,#000000,#696969,#D3D3D3,#DCDCDC);
+    width: 100%;
+  }
+
+
+
+   .land-form {
+    background-color: #262629;
+    margin: 0 auto;
+    width: 1200px;
+    height: 75%;
+    border-radius: 24px;
+    padding: 24px;
+    color: #fff;
+    gap: 18px;
+    padding-bottom: 20px;
+   }
+
+   .newland-input-box {
+    margin:50px 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 18px;
+    width: 480px;
+   }
+
+ .input-box-tag{
+  white-space: nowrap;
+  width: 60px;
+ }
+
+ .input-box-content{
+  width: 300px;
+ }
+
+ .SlideNavigation{
+  background-color: #262629;
+  width: 300px;
+  height: 750px;
+  gap: 90px;
+  border-radius: 30px;
+  display: flex;
+  flex-direction:column;
+  align-items:center;
+  justify-content:center;
+  border-style: none;
+ }
+
+ .select-box {
+  height: 500px;
+  gap: 90px;
+  margin-top: 25px;
+ }
+
+

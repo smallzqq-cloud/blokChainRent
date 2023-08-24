@@ -1,0 +1,59 @@
+{
+  "_format": "hh-sol-artifact-1",
+  "contractName": "PayTimeCheck",
+  "sourceName": "contracts/PayTimeCheck.sol",
+  "abi": [
+    {
+      "inputs": [
+        {
+          "internalType": "uint256",
+          "name": "validTime",
+          "type": "uint256"
+        },
+        {
+          "internalType": "uint256",
+          "name": "payTime",
+          "type": "uint256"
+        }
+      ],
+      "name": "getAllPayTime",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "count",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "pure",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "uint256",
+          "name": "stratTime",
+          "type": "uint256"
+        },
+        {
+          "internalType": "uint256",
+          "name": "payTime",
+          "type": "uint256"
+        }
+      ],
+      "name": "getPayTime",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "count",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    }
+  ],
+  "bytecode": "0x608060405234801561001057600080fd5b50610127806100206000396000f3fe6080604052348015600f57600080fd5b506004361060325760003560e01c806352d1e8a3146037578063cc0e096f146058575b600080fd5b60466042366004608b565b6067565b60405190815260200160405180910390f35b60466063366004608b565b6081565b6000816072844260ac565b607a919060d0565b9392505050565b6000607a828460d0565b60008060408385031215609d57600080fd5b50508035926020909101359150565b60008282101560cb57634e487b7160e01b600052601160045260246000fd5b500390565b60008260ec57634e487b7160e01b600052601260045260246000fd5b50049056fea2646970667358221220c91a27056d6e18566d54fa72c923cbb827145b9783f83255159f99997ab7be7564736f6c63430008090033",
+  "deployedBytecode": "0x6080604052348015600f57600080fd5b506004361060325760003560e01c806352d1e8a3146037578063cc0e096f146058575b600080fd5b60466042366004608b565b6067565b60405190815260200160405180910390f35b60466063366004608b565b6081565b6000816072844260ac565b607a919060d0565b9392505050565b6000607a828460d0565b60008060408385031215609d57600080fd5b50508035926020909101359150565b60008282101560cb57634e487b7160e01b600052601160045260246000fd5b500390565b60008260ec57634e487b7160e01b600052601260045260246000fd5b50049056fea2646970667358221220c91a27056d6e18566d54fa72c923cbb827145b9783f83255159f99997ab7be7564736f6c63430008090033",
+  "linkReferences": {},
+  "deployedLinkReferences": {}
+}

@@ -1,0 +1,22 @@
+#components-form-demo-control-ref .ant-btn {
+    margin-right: 8px;
+  }
+
+  .Upload-form >input{
+    margin: 18px;
+    width: 200px;
+  }
+  .Upload-form-box {
+    width: 450px;
+    height: 300px;
+    background-color: black;
+    border-radius: 18px;
+  }
+  .NFTImg {
+    background-color: black;
+    border-radius: 18px;
+  }
+  .mintNFT {
+    padding-left:160%;
+    padding-bottom: 10%;
+  }

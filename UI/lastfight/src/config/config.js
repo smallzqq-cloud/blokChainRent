@@ -1,0 +1,2 @@
+//export const NODE_URL = "http://127.0.0.1:8545"; //https://goerli.infura.io/v3/4c3dbc91aea14c379f37dca825f12d45
+export const NODE_URL = "https://eth-goerli.g.alchemy.com/v2/aUTJSEeyzFepmJawdDnrGMvKyy7FK_ek"; 
